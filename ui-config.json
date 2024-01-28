@@ -1,251 +1,251 @@
 {
-    "txt2img/Prompt/visible": true,
-    "txt2img/Prompt/value": "masterpiece, (best quality), 1girl, fox tail, fox ears, ",
-    "txt2img/Negative prompt/visible": true,
-    "txt2img/Negative prompt/value": "EasyNegative, bad-hands-5, (worst quality, low quality:1.4),",
-    "txt2img/Styles/visible": true,
+    "txt2img/Prompt/visible": true，
+    "txt2img/Prompt/value": "masterpiece, (best quality), 1girl, fox tail, fox ears, "，
+    "txt2img/Negative prompt/visible": true，
+    "txt2img/Negative prompt/value": "EasyNegative, bad-hands-5, (worst quality, low quality:1.4),"，
+    "txt2img/Styles/visible": true，
     "txt2img/Styles/value": [
         "Default"
-    ],
-    "txt2img/Sampling method/visible": true,
-    "txt2img/Sampling method/value": "DPM++ 2M Karras",
-    "txt2img/Sampling steps/visible": true,
-    "txt2img/Sampling steps/value": 20,
-    "txt2img/Sampling steps/minimum": 1,
-    "txt2img/Sampling steps/maximum": 30,
-    "txt2img/Sampling steps/step": 1,
-    "txt2img/Width/visible": true,
-    "txt2img/Width/value": 768,
-    "txt2img/Width/minimum": 64,
-    "txt2img/Width/maximum": 960,
-    "txt2img/Width/step": 8,
-    "txt2img/Height/visible": true,
-    "txt2img/Height/value": 512,
-    "txt2img/Height/minimum": 64,
-    "txt2img/Height/maximum": 960,
-    "txt2img/Height/step": 8,
-    "txt2img/Batch count/visible": true,
-    "txt2img/Batch count/value": 1,
-    "txt2img/Batch count/minimum": 1,
-    "txt2img/Batch count/maximum": 1,
-    "txt2img/Batch count/step": 1,
-    "txt2img/Batch size/visible": true,
-    "txt2img/Batch size/value": 1,
-    "txt2img/Batch size/minimum": 1,
-    "txt2img/Batch size/maximum": 1,
-    "txt2img/Batch size/step": 1,
-    "txt2img/CFG Scale/visible": true,
-    "txt2img/CFG Scale/value": 8.0,
-    "txt2img/CFG Scale/minimum": 1.0,
-    "txt2img/CFG Scale/maximum": 15.0,
-    "txt2img/CFG Scale/step": 0.1,
-    "txt2img/Seed/visible": true,
-    "txt2img/Seed/value": -1.0,
-    "txt2img/Extra/visible": true,
-    "txt2img/Extra/value": false,
-    "txt2img/Variation seed/visible": true,
-    "txt2img/Variation seed/value": -1.0,
-    "txt2img/Variation strength/visible": true,
-    "txt2img/Variation strength/value": 0.0,
-    "txt2img/Variation strength/minimum": 0,
-    "txt2img/Variation strength/maximum": 1,
-    "txt2img/Variation strength/step": 0.01,
-    "txt2img/Resize seed from width/visible": true,
-    "txt2img/Resize seed from width/value": 0,
-    "txt2img/Resize seed from width/minimum": 0,
-    "txt2img/Resize seed from width/maximum": 1024,
-    "txt2img/Resize seed from width/step": 8,
-    "txt2img/Resize seed from height/visible": true,
-    "txt2img/Resize seed from height/value": 0,
-    "txt2img/Resize seed from height/minimum": 0,
-    "txt2img/Resize seed from height/maximum": 1088,
-    "txt2img/Resize seed from height/step": 8,
-    "txt2img/Restore faces/visible": true,
-    "txt2img/Restore faces/value": false,
-    "txt2img/Tiling/visible": true,
-    "txt2img/Tiling/value": false,
-    "txt2img/Hires. fix/visible": true,
-    "txt2img/Hires. fix/value": false,
-    "txt2img/Upscaler/visible": true,
-    "txt2img/Upscaler/value": "Latent",
-    "txt2img/Hires steps/visible": true,
-    "txt2img/Hires steps/value": 0,
-    "txt2img/Hires steps/minimum": 0,
-    "txt2img/Hires steps/maximum": 20,
-    "txt2img/Hires steps/step": 1,
-    "txt2img/Denoising strength/visible": true,
-    "txt2img/Denoising strength/value": 0.6,
-    "txt2img/Denoising strength/minimum": 0.0,
-    "txt2img/Denoising strength/maximum": 1.0,
-    "txt2img/Denoising strength/step": 0.01,
-    "txt2img/Upscale by/visible": true,
-    "txt2img/Upscale by/value": 2.0,
-    "txt2img/Upscale by/minimum": 1.0,
-    "txt2img/Upscale by/maximum": 2.0,
-    "txt2img/Upscale by/step": 0.05,
-    "txt2img/Resize width to/visible": true,
-    "txt2img/Resize width to/value": 0,
-    "txt2img/Resize width to/minimum": 0,
-    "txt2img/Resize width to/maximum": 1024,
-    "txt2img/Resize width to/step": 8,
-    "txt2img/Resize height to/visible": true,
-    "txt2img/Resize height to/value": 0,
-    "txt2img/Resize height to/minimum": 0,
-    "txt2img/Resize height to/maximum": 1024,
-    "txt2img/Resize height to/step": 8,
-    "txt2img/Script/visible": true,
-    "txt2img/Script/value": "None",
-    "customscript/prompt_matrix.py/txt2img/Put variable parts at start of prompt/visible": true,
-    "customscript/prompt_matrix.py/txt2img/Put variable parts at start of prompt/value": false,
-    "customscript/prompt_matrix.py/txt2img/Use different seed for each picture/visible": true,
-    "customscript/prompt_matrix.py/txt2img/Use different seed for each picture/value": false,
-    "customscript/prompts_from_file.py/txt2img/Iterate seed every line/visible": true,
-    "customscript/prompts_from_file.py/txt2img/Iterate seed every line/value": false,
-    "customscript/prompts_from_file.py/txt2img/Use same random seed for all lines/visible": true,
-    "customscript/prompts_from_file.py/txt2img/Use same random seed for all lines/value": false,
-    "customscript/prompts_from_file.py/txt2img/List of prompt inputs/visible": true,
-    "customscript/prompts_from_file.py/txt2img/List of prompt inputs/value": "",
-    "customscript/xy_grid.py/txt2img/X type/visible": true,
-    "customscript/xy_grid.py/txt2img/X type/value": "Seed",
-    "customscript/xy_grid.py/txt2img/X values/visible": true,
-    "customscript/xy_grid.py/txt2img/X values/value": "",
-    "customscript/xy_grid.py/txt2img/Y type/visible": true,
-    "customscript/xy_grid.py/txt2img/Y type/value": "Nothing",
-    "customscript/xy_grid.py/txt2img/Y values/visible": true,
-    "customscript/xy_grid.py/txt2img/Y values/value": "",
-    "customscript/xy_grid.py/txt2img/Draw legend/visible": true,
-    "customscript/xy_grid.py/txt2img/Draw legend/value": true,
-    "customscript/xy_grid.py/txt2img/Include Separate Images/visible": true,
-    "customscript/xy_grid.py/txt2img/Include Separate Images/value": false,
-    "customscript/xy_grid.py/txt2img/Keep -1 for seeds/visible": true,
-    "customscript/xy_grid.py/txt2img/Keep -1 for seeds/value": false,
-    "customscript/ddetailer.py/txt2img/Primary detection model (A)/visible": true,
-    "customscript/ddetailer.py/txt2img/Primary detection model (A)/value": "None",
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/value": 30,
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/minimum": 0,
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/maximum": 100,
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/step": 1,
-    "customscript/ddetailer.py/txt2img/Dilation factor (A)/value": 4,
-    "customscript/ddetailer.py/txt2img/Dilation factor (A)/minimum": 0,
-    "customscript/ddetailer.py/txt2img/Dilation factor (A)/maximum": 255,
-    "customscript/ddetailer.py/txt2img/Dilation factor (A)/step": 1,
-    "customscript/ddetailer.py/txt2img/X offset (A)/value": 0,
-    "customscript/ddetailer.py/txt2img/X offset (A)/minimum": -200,
-    "customscript/ddetailer.py/txt2img/X offset (A)/maximum": 200,
-    "customscript/ddetailer.py/txt2img/X offset (A)/step": 1,
-    "customscript/ddetailer.py/txt2img/Y offset (A)/value": 0,
-    "customscript/ddetailer.py/txt2img/Y offset (A)/minimum": -200,
-    "customscript/ddetailer.py/txt2img/Y offset (A)/maximum": 200,
-    "customscript/ddetailer.py/txt2img/Y offset (A)/step": 1,
-    "customscript/ddetailer.py/txt2img/Inpaint model B detections before model A runs/value": false,
-    "customscript/ddetailer.py/txt2img/Bitwise operation/value": "None",
-    "customscript/ddetailer.py/txt2img/Secondary detection model (B) (optional)/value": "None",
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/value": 30,
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/minimum": 0,
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/maximum": 100,
-    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/step": 1,
-    "customscript/ddetailer.py/txt2img/Dilation factor (B)/value": 4,
-    "customscript/ddetailer.py/txt2img/Dilation factor (B)/minimum": 0,
-    "customscript/ddetailer.py/txt2img/Dilation factor (B)/maximum": 255,
-    "customscript/ddetailer.py/txt2img/Dilation factor (B)/step": 1,
-    "customscript/ddetailer.py/txt2img/X offset (B)/value": 0,
-    "customscript/ddetailer.py/txt2img/X offset (B)/minimum": -200,
-    "customscript/ddetailer.py/txt2img/X offset (B)/maximum": 200,
-    "customscript/ddetailer.py/txt2img/X offset (B)/step": 1,
-    "customscript/ddetailer.py/txt2img/Y offset (B)/value": 0,
-    "customscript/ddetailer.py/txt2img/Y offset (B)/minimum": -200,
-    "customscript/ddetailer.py/txt2img/Y offset (B)/maximum": 200,
-    "customscript/ddetailer.py/txt2img/Y offset (B)/step": 1,
-    "customscript/ddetailer.py/txt2img/Mask blur /visible": true,
-    "customscript/ddetailer.py/txt2img/Mask blur /value": 4,
-    "customscript/ddetailer.py/txt2img/Mask blur /minimum": 0,
-    "customscript/ddetailer.py/txt2img/Mask blur /maximum": 64,
-    "customscript/ddetailer.py/txt2img/Mask blur /step": 1,
-    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/visible": true,
-    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/value": 0.4,
-    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/minimum": 0.0,
-    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/maximum": 1.0,
-    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/step": 0.01,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution /visible": true,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution /value": true,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /visible": true,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /value": 32,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /minimum": 0,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /maximum": 256,
-    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /step": 4,
-    "customscript/multirender.py/txt2img/Foreground prompt  /visible": true,
-    "customscript/multirender.py/txt2img/Foreground prompt  /value": "",
-    "customscript/multirender.py/txt2img/Number of foreground images  /visible": true,
-    "customscript/multirender.py/txt2img/Number of foreground images  /value": 5,
-    "customscript/multirender.py/txt2img/Number of foreground images  /minimum": 1,
-    "customscript/multirender.py/txt2img/Number of foreground images  /maximum": 10,
-    "customscript/multirender.py/txt2img/Number of foreground images  /step": 1,
-    "customscript/multirender.py/txt2img/foreground steps  /visible": true,
-    "customscript/multirender.py/txt2img/foreground steps  /value": 24,
-    "customscript/multirender.py/txt2img/foreground steps  /minimum": 1,
-    "customscript/multirender.py/txt2img/foreground steps  /maximum": 120,
-    "customscript/multirender.py/txt2img/foreground steps  /step": 1,
-    "customscript/multirender.py/txt2img/foreground cfg scale  /visible": true,
-    "customscript/multirender.py/txt2img/foreground cfg scale  /value": 12.5,
-    "customscript/multirender.py/txt2img/foreground cfg scale  /minimum": 1,
-    "customscript/multirender.py/txt2img/foreground cfg scale  /maximum": 30,
-    "customscript/multirender.py/txt2img/foreground cfg scale  /step": 0.1,
-    "customscript/multirender.py/txt2img/foreground new seed+  /visible": true,
-    "customscript/multirender.py/txt2img/foreground new seed+  /value": 1000,
-    "customscript/multirender.py/txt2img/foreground new seed+  /minimum": 0,
-    "customscript/multirender.py/txt2img/foreground new seed+  /maximum": 1000,
-    "customscript/multirender.py/txt2img/foreground new seed+  /step": 1,
-    "customscript/multirender.py/txt2img/foreground sampler/visible": true,
-    "customscript/multirender.py/txt2img/foreground sampler/value": "DDIM",
-    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /visible": true,
-    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /value": 0,
-    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /minimum": 0,
-    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /maximum": 12,
-    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /step": 1,
-    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /visible": true,
-    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /value": 64,
-    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /minimum": 64,
-    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /maximum": 2048,
-    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /step": 64,
-    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /visible": true,
-    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /value": 64,
-    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /minimum": 64,
-    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /maximum": 2048,
-    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /step": 64,
-    "customscript/multirender.py/txt2img/final blend prompt/visible": true,
-    "customscript/multirender.py/txt2img/final blend prompt/value": "",
-    "customscript/multirender.py/txt2img/blend steps   /visible": true,
-    "customscript/multirender.py/txt2img/blend steps   /value": 64,
-    "customscript/multirender.py/txt2img/blend steps   /minimum": 1,
-    "customscript/multirender.py/txt2img/blend steps   /maximum": 120,
-    "customscript/multirender.py/txt2img/blend steps   /step": 1,
-    "customscript/multirender.py/txt2img/blend cfg scale  /visible": true,
-    "customscript/multirender.py/txt2img/blend cfg scale  /value": 7.5,
-    "customscript/multirender.py/txt2img/blend cfg scale  /minimum": 1,
-    "customscript/multirender.py/txt2img/blend cfg scale  /maximum": 30,
-    "customscript/multirender.py/txt2img/blend cfg scale  /step": 0.1,
-    "customscript/multirender.py/txt2img/blend denoising strength   /visible": true,
-    "customscript/multirender.py/txt2img/blend denoising strength   /value": 0.42,
-    "customscript/multirender.py/txt2img/blend denoising strength   /minimum": 0.1,
-    "customscript/multirender.py/txt2img/blend denoising strength   /maximum": 1,
-    "customscript/multirender.py/txt2img/blend denoising strength   /step": 0.01,
-    "customscript/multirender.py/txt2img/blend sampler/visible": true,
-    "customscript/multirender.py/txt2img/blend sampler/value": "DDIM",
-    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /visible": true,
-    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /value": 64,
-    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /minimum": 64,
-    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /maximum": 2048,
-    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /step": 64,
-    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /visible": true,
-    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /value": 64,
-    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /minimum": 64,
-    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /maximum": 2048,
-    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /step": 64,
-    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /visible": true,
-    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /value": 1,
-    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /minimum": 0,
-    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /maximum": 2,
-    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /step": 0.01,
+    ]，
+    "txt2img/Sampling method/visible": true，
+    "txt2img/Sampling method/value": "DPM++ 2M Karras"，
+    "txt2img/Sampling steps/visible": true，
+    "txt2img/Sampling steps/value": 20，
+    "txt2img/Sampling steps/minimum": 1，
+    "txt2img/Sampling steps/maximum": 40，
+    "txt2img/Sampling steps/step": 1，
+    "txt2img/Width/visible": true，
+    "txt2img/Width/value": 768，
+    "txt2img/Width/minimum": 64，
+    "txt2img/Width/maximum": 960，
+    "txt2img/Width/step": 8，
+    "txt2img/Height/visible": true，
+    "txt2img/Height/value": 512，
+    "txt2img/Height/minimum": 64，
+    "txt2img/Height/maximum": 960，
+    "txt2img/Height/step": 8，
+    "txt2img/Batch count/visible": true，
+    "txt2img/Batch count/value": 1，
+    "txt2img/Batch count/minimum": 1，
+    "txt2img/Batch count/maximum": 10，
+    "txt2img/Batch count/step": 1，
+    "txt2img/Batch size/visible": true，
+    "txt2img/Batch size/value": 1，
+    "txt2img/Batch size/minimum": 1，
+    "txt2img/Batch size/maximum": 10，
+    "txt2img/Batch size/step": 1，
+    "txt2img/CFG Scale/visible": true，
+    "txt2img/CFG Scale/value": 8.0，
+    "txt2img/CFG Scale/minimum": 1.0，
+    "txt2img/CFG Scale/maximum": 15.0，
+    "txt2img/CFG Scale/step": 0.1，
+    "txt2img/Seed/visible": true，
+    "txt2img/Seed/value": -1.0，
+    "txt2img/Extra/visible": true，
+    "txt2img/Extra/value": false，
+    "txt2img/Variation seed/visible": true，
+    "txt2img/Variation seed/value": -1.0，
+    "txt2img/Variation strength/visible": true，
+    "txt2img/Variation strength/value": 0.0，
+    "txt2img/Variation strength/minimum": 0，
+    "txt2img/Variation strength/maximum": 1，
+    "txt2img/Variation strength/step": 0.01，
+    "txt2img/Resize seed from width/visible": true，
+    "txt2img/Resize seed from width/value": 0，
+    "txt2img/Resize seed from width/minimum": 0，
+    "txt2img/Resize seed from width/maximum": 4096，
+    "txt2img/Resize seed from width/step": 8，
+    "txt2img/Resize seed from height/visible": true，
+    "txt2img/Resize seed from height/value": 0，
+    "txt2img/Resize seed from height/minimum": 0，
+    "txt2img/Resize seed from height/maximum": 1088，
+    "txt2img/Resize seed from height/step": 8，
+    "txt2img/Restore faces/visible": true，
+    "txt2img/Restore faces/value": false，
+    "txt2img/Tiling/visible": true，
+    "txt2img/Tiling/value": false，
+    "txt2img/Hires. fix/visible": true，
+    "txt2img/Hires. fix/value": false，
+    "txt2img/Upscaler/visible": true，
+    "txt2img/Upscaler/value": "Latent"，
+    "txt2img/Hires steps/visible": true，
+    "txt2img/Hires steps/value": 0，
+    "txt2img/Hires steps/minimum": 0，
+    "txt2img/Hires steps/maximum": 50，
+    "txt2img/Hires steps/step": 1，
+    "txt2img/Denoising strength/visible": true，
+    "txt2img/Denoising strength/value": 0.6，
+    "txt2img/Denoising strength/minimum": 0.0，
+    "txt2img/Denoising strength/maximum": 1.0，
+    "txt2img/Denoising strength/step": 0.01，
+    "txt2img/Upscale by/visible": true，
+    "txt2img/Upscale by/value": 2.0，
+    "txt2img/Upscale by/minimum": 1.0，
+    "txt2img/Upscale by/maximum": 2.0，
+    "txt2img/Upscale by/step": 0.05，
+    "txt2img/Resize width to/visible": true，
+    "txt2img/Resize width to/value": 0，
+    "txt2img/Resize width to/minimum": 0，
+    "txt2img/Resize width to/maximum": 10240，
+    "txt2img/Resize width to/step": 8，
+    "txt2img/Resize height to/visible": true，
+    "txt2img/Resize height to/value": 0，
+    "txt2img/Resize height to/minimum": 0，
+    "txt2img/Resize height to/maximum": 10240，
+    "txt2img/Resize height to/step": 8，
+    "txt2img/Script/visible": true，
+    "txt2img/Script/value": "None"，
+    "customscript/prompt_matrix.py/txt2img/Put variable parts at start of prompt/visible": true，
+    "customscript/prompt_matrix.py/txt2img/Put variable parts at start of prompt/value": false，
+    "customscript/prompt_matrix.py/txt2img/Use different seed for each picture/visible": true，
+    "customscript/prompt_matrix.py/txt2img/Use different seed for each picture/value": false，
+    "customscript/prompts_from_file.py/txt2img/Iterate seed every line/visible": true，
+    "customscript/prompts_from_file.py/txt2img/Iterate seed every line/value": false，
+    "customscript/prompts_from_file.py/txt2img/Use same random seed for all lines/visible": true，
+    "customscript/prompts_from_file.py/txt2img/Use same random seed for all lines/value": false，
+    "customscript/prompts_from_file.py/txt2img/List of prompt inputs/visible": true，
+    "customscript/prompts_from_file.py/txt2img/List of prompt inputs/value": ""，
+    "customscript/xy_grid.py/txt2img/X type/visible": true，
+    "customscript/xy_grid.py/txt2img/X type/value": "Seed"，
+    "customscript/xy_grid.py/txt2img/X values/visible": true，
+    "customscript/xy_grid.py/txt2img/X values/value": ""，
+    "customscript/xy_grid.py/txt2img/Y type/visible": true，
+    "customscript/xy_grid.py/txt2img/Y type/value": "Nothing"，
+    "customscript/xy_grid.py/txt2img/Y values/visible": true，
+    "customscript/xy_grid.py/txt2img/Y values/value": ""，
+    "customscript/xy_grid.py/txt2img/Draw legend/visible": true，
+    "customscript/xy_grid.py/txt2img/Draw legend/value": true，
+    "customscript/xy_grid.py/txt2img/Include Separate Images/visible": true，
+    "customscript/xy_grid.py/txt2img/Include Separate Images/value": false，
+    "customscript/xy_grid.py/txt2img/Keep -1 for seeds/visible": true，
+    "customscript/xy_grid.py/txt2img/Keep -1 for seeds/value": false，
+    "customscript/ddetailer.py/txt2img/Primary detection model (A)/visible": true，
+    "customscript/ddetailer.py/txt2img/Primary detection model (A)/value": "None"，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/value": 30，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/minimum": 0，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/maximum": 100，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (A)/step": 1，
+    "customscript/ddetailer.py/txt2img/Dilation factor (A)/value": 4，
+    "customscript/ddetailer.py/txt2img/Dilation factor (A)/minimum": 0，
+    "customscript/ddetailer.py/txt2img/Dilation factor (A)/maximum": 255，
+    "customscript/ddetailer.py/txt2img/Dilation factor (A)/step": 1，
+    "customscript/ddetailer.py/txt2img/X offset (A)/value": 0，
+    "customscript/ddetailer.py/txt2img/X offset (A)/minimum": -200，
+    "customscript/ddetailer.py/txt2img/X offset (A)/maximum": 200，
+    "customscript/ddetailer.py/txt2img/X offset (A)/step": 1，
+    "customscript/ddetailer.py/txt2img/Y offset (A)/value": 0，
+    "customscript/ddetailer.py/txt2img/Y offset (A)/minimum": -200，
+    "customscript/ddetailer.py/txt2img/Y offset (A)/maximum": 200，
+    "customscript/ddetailer.py/txt2img/Y offset (A)/step": 1，
+    "customscript/ddetailer.py/txt2img/Inpaint model B detections before model A runs/value": false，
+    "customscript/ddetailer.py/txt2img/Bitwise operation/value": "None"，
+    "customscript/ddetailer.py/txt2img/Secondary detection model (B) (optional)/value": "None"，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/value": 30，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/minimum": 0，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/maximum": 100，
+    "customscript/ddetailer.py/txt2img/Detection confidence threshold % (B)/step": 1，
+    "customscript/ddetailer.py/txt2img/Dilation factor (B)/value": 4，
+    "customscript/ddetailer.py/txt2img/Dilation factor (B)/minimum": 0，
+    "customscript/ddetailer.py/txt2img/Dilation factor (B)/maximum": 255，
+    "customscript/ddetailer.py/txt2img/Dilation factor (B)/step": 1，
+    "customscript/ddetailer.py/txt2img/X offset (B)/value": 0，
+    "customscript/ddetailer.py/txt2img/X offset (B)/minimum": -200，
+    "customscript/ddetailer.py/txt2img/X offset (B)/maximum": 200，
+    "customscript/ddetailer.py/txt2img/X offset (B)/step": 1，
+    "customscript/ddetailer.py/txt2img/Y offset (B)/value": 0，
+    "customscript/ddetailer.py/txt2img/Y offset (B)/minimum": -200，
+    "customscript/ddetailer.py/txt2img/Y offset (B)/maximum": 200，
+    "customscript/ddetailer.py/txt2img/Y offset (B)/step": 1，
+    "customscript/ddetailer.py/txt2img/Mask blur /visible": true，
+    "customscript/ddetailer.py/txt2img/Mask blur /value": 4，
+    "customscript/ddetailer.py/txt2img/Mask blur /minimum": 0，
+    "customscript/ddetailer.py/txt2img/Mask blur /maximum": 64，
+    "customscript/ddetailer.py/txt2img/Mask blur /step": 1，
+    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/visible": true，
+    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/value": 0.4，
+    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/minimum": 0.0，
+    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/maximum": 1.0，
+    "customscript/ddetailer.py/txt2img/Denoising strength (Inpaint)/step": 0.01，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution /visible": true，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution /value": true，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /visible": true，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /value": 32，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /minimum": 0，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /maximum": 256，
+    "customscript/ddetailer.py/txt2img/Inpaint at full resolution padding, pixels /step": 4，
+    "customscript/multirender.py/txt2img/Foreground prompt  /visible": true，
+    "customscript/multirender.py/txt2img/Foreground prompt  /value": ""，
+    "customscript/multirender.py/txt2img/Number of foreground images  /visible": true，
+    "customscript/multirender.py/txt2img/Number of foreground images  /value": 5，
+    "customscript/multirender.py/txt2img/Number of foreground images  /minimum": 1，
+    "customscript/multirender.py/txt2img/Number of foreground images  /maximum": 10，
+    "customscript/multirender.py/txt2img/Number of foreground images  /step": 1，
+    "customscript/multirender.py/txt2img/foreground steps  /visible": true，
+    "customscript/multirender.py/txt2img/foreground steps  /value": 24，
+    "customscript/multirender.py/txt2img/foreground steps  /minimum": 1，
+    "customscript/multirender.py/txt2img/foreground steps  /maximum": 120，
+    "customscript/multirender.py/txt2img/foreground steps  /step": 1，
+    "customscript/multirender.py/txt2img/foreground cfg scale  /visible": true，
+    "customscript/multirender.py/txt2img/foreground cfg scale  /value": 12.5，
+    "customscript/multirender.py/txt2img/foreground cfg scale  /minimum": 1，
+    "customscript/multirender.py/txt2img/foreground cfg scale  /maximum": 30，
+    "customscript/multirender.py/txt2img/foreground cfg scale  /step": 0.1，
+    "customscript/multirender.py/txt2img/foreground new seed+  /visible": true，
+    "customscript/multirender.py/txt2img/foreground new seed+  /value": 1000，
+    "customscript/multirender.py/txt2img/foreground new seed+  /minimum": 0，
+    "customscript/multirender.py/txt2img/foreground new seed+  /maximum": 1000，
+    "customscript/multirender.py/txt2img/foreground new seed+  /step": 1，
+    "customscript/multirender.py/txt2img/foreground sampler/visible": true，
+    "customscript/multirender.py/txt2img/foreground sampler/value": "DDIM"，
+    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /visible": true，
+    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /value": 0，
+    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /minimum": 0，
+    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /maximum": 12，
+    "customscript/multirender.py/txt2img/change clip for foreground (0 = no interaction)  /step": 1，
+    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /visible": true，
+    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /value": 64，
+    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /minimum": 64，
+    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /maximum": 2048，
+    "customscript/multirender.py/txt2img/foreground width (64 = same as background)  /step": 64，
+    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /visible": true，
+    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /value": 64，
+    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /minimum": 64，
+    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /maximum": 2048，
+    "customscript/multirender.py/txt2img/foreground height (64 = same as background)  /step": 64，
+    "customscript/multirender.py/txt2img/final blend prompt/visible": true，
+    "customscript/multirender.py/txt2img/final blend prompt/value": ""，
+    "customscript/multirender.py/txt2img/blend steps   /visible": true，
+    "customscript/multirender.py/txt2img/blend steps   /value": 64，
+    "customscript/multirender.py/txt2img/blend steps   /minimum": 1，
+    "customscript/multirender.py/txt2img/blend steps   /maximum": 120，
+    "customscript/multirender.py/txt2img/blend steps   /step": 1，
+    "customscript/multirender.py/txt2img/blend cfg scale  /visible": true，
+    "customscript/multirender.py/txt2img/blend cfg scale  /value": 7.5，
+    "customscript/multirender.py/txt2img/blend cfg scale  /minimum": 1，
+    "customscript/multirender.py/txt2img/blend cfg scale  /maximum": 30，
+    "customscript/multirender.py/txt2img/blend cfg scale  /step": 0.1，
+    "customscript/multirender.py/txt2img/blend denoising strength   /visible": true，
+    "customscript/multirender.py/txt2img/blend denoising strength   /value": 0.42，
+    "customscript/multirender.py/txt2img/blend denoising strength   /minimum": 0.1，
+    "customscript/multirender.py/txt2img/blend denoising strength   /maximum": 1，
+    "customscript/multirender.py/txt2img/blend denoising strength   /step": 0.01，
+    "customscript/multirender.py/txt2img/blend sampler/visible": true，
+    "customscript/multirender.py/txt2img/blend sampler/value": "DDIM"，
+    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /visible": true，
+    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /value": 64，
+    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /minimum": 64，
+    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /maximum": 2048，
+    "customscript/multirender.py/txt2img/blend width   (64 = same size as background) /step": 64，
+    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /visible": true，
+    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /value": 64，
+    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /minimum": 64，
+    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /maximum": 2048，
+    "customscript/multirender.py/txt2img/blend height  (64 = same size as background) /step": 64，
+    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /visible": true，
+    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /value": 1，
+    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /minimum": 0，
+    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /maximum": 2，
+    "customscript/multirender.py/txt2img/Foreground distance from center multiplier  /step": 0.01，
     "customscript/multirender.py/txt2img/Foreground Y shift (far from center = lower) /visible": true,
     "customscript/multirender.py/txt2img/Foreground Y shift (far from center = lower) /value": 0,
     "customscript/multirender.py/txt2img/Foreground Y shift (far from center = lower) /minimum": 0,
