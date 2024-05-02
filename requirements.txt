@@ -7,4 +7,4 @@ torchdata==0.6.1
 xformers==0.0.22
 triton==2.0.0
 wandb
-jupyterlab
+cupy
