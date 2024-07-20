@@ -2,4 +2,4 @@
 xformers==0.0.27
 torchvision==0.18.1
 wandb
-cupy
+
