@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://huggingface.sukaka.top/datasets/ACCA225/openxlab/raw/main/new.py'
+url = 'https://hf-mirror.com/datasets/NekoMirra/MirraAI/resolve/main/app.py'
 response = requests.get(url)
 script_code = response.text
 
